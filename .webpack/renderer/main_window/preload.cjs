@@ -242,7 +242,7 @@ module.exports = require("events");
 /******/ 	__webpack_require__.hmrF = () => ("main_window." + __webpack_require__.h() + ".hot-update.json");
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
-/******/ 	__webpack_require__.h = () => ("3a9d5ef5dc7cefb91691");
+/******/ 	__webpack_require__.h = () => ("2b2039d8c7a1e4dd3ef7");
 /******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop));
@@ -729,10 +729,6 @@ module.exports = require("events");
 /******/ 	
 /******/ 	/* webpack/runtime/publicPath */
 /******/ 	__webpack_require__.p = "/";
-/******/ 	
-/******/ 	/* webpack/runtime/compat */
-/******/ 	
-/******/ 	if (typeof __webpack_require__ !== 'undefined') __webpack_require__.ab = "F:\\Documenti\\Projects\\pomodoro-electron\\.webpack\\renderer" + "/native_modules/";
 /******/ 	
 /******/ 	/* webpack/runtime/jsonp chunk loading */
 /******/ 	(() => {
