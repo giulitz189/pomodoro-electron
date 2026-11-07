@@ -10,9 +10,10 @@
     background: transparent;
     border: none;
     padding: 0;
-    color: white;
     font-size: 2rem;
     text-align: center;
+
+    appearance: textfield;
     -moz-appearance: textfield;
 
     &:focus {

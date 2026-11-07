@@ -1,7 +1,11 @@
-body {
+body, input {
+  color: white;
   font-family:
     'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial,
     sans-serif;
+}
+
+body {
   margin: auto;
   max-width: 38rem;
   background-color: #1e1e1e;
