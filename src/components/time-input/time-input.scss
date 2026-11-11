@@ -28,7 +28,10 @@
 
   .clock-selector {
     margin: 0.5rem;
-    height: 1.5em;
     cursor: pointer;
+
+    svg {
+      height: 1.5em;
+    }
   }
 }
