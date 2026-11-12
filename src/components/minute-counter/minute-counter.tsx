@@ -9,7 +9,7 @@ interface MinuteCounterProps {
 
 export const MinuteCounter = ({ value, onChange }: MinuteCounterProps) => {
   return (
-    <div className="container">
+    <div className="minute-counter-container">
       <input type="number" min={0} value={value} onChange={(e) => onChange(Number(e.target.value))} />
       <div className="buttons">
         <CustomNumberBtn
