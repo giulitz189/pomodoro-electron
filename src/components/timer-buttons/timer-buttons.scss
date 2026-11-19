@@ -1,0 +1,39 @@
+.timer-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    background-color: #ccc;
+
+    transition: width 0.1s ease, height 0.1s ease;
+
+    svg {
+      height: 2em;
+      color: #1e1e1e;
+    }
+
+    &.negative {
+      background-color: transparent;
+
+      svg {
+        color: #ccc;
+      }
+    }
+
+    &.clicked {
+      width: 3rem;
+      height: 3rem;
+    }
+  }
+}
